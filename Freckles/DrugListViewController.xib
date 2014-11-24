@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DrugListViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="u6C-jt-5cO">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="u6C-jt-5cO" secondAttribute="bottom" id="2Jp-q3-JlR"/>
+                <constraint firstAttribute="trailing" secondItem="u6C-jt-5cO" secondAttribute="trailing" id="ZnG-Vc-4wK"/>
+                <constraint firstItem="u6C-jt-5cO" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="inq-O8-p52"/>
+                <constraint firstItem="u6C-jt-5cO" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ltA-ah-LDw"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="u6C-jt-5cO"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="2Jp-q3-JlR"/>
+                    <exclude reference="ZnG-Vc-4wK"/>
+                    <exclude reference="inq-O8-p52"/>
+                    <exclude reference="ltA-ah-LDw"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="u6C-jt-5cO"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="2Jp-q3-JlR"/>
+                    <include reference="ZnG-Vc-4wK"/>
+                    <include reference="inq-O8-p52"/>
+                    <include reference="ltA-ah-LDw"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

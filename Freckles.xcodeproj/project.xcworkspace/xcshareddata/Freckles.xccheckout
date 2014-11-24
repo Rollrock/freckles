@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1F208387-1B59-47EB-932E-949ECB21461A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Freckles</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DA1215E8BEE92D5DDF6363176461119764E30FB0</key>
+		<string>https://github.com/Rollrock/freckles.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Freckles.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DA1215E8BEE92D5DDF6363176461119764E30FB0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Rollrock/freckles.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DA1215E8BEE92D5DDF6363176461119764E30FB0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DA1215E8BEE92D5DDF6363176461119764E30FB0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>freckles</string>
+		</dict>
+	</array>
+</dict>
+</plist>

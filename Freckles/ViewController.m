@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "AboutViewController.h"
+#import "DrugListViewController.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *firstBtn;
@@ -36,9 +38,17 @@
 }
 
 - (IBAction)firstBtnClicked {
+    
+    AboutViewController * vc = [[AboutViewController alloc]initWithNibName:@"AboutViewController" bundle:nil];
+    [self presentViewController:vc animated:YES completion:nil];
+    
 }
 
 - (IBAction)secondBtnClicked {
+    
+    DrugListViewController * vc = [[DrugListViewController alloc]initWithNibName:@"DrugListViewController" bundle:nil];
+    [self presentViewController:vc animated:YES completion:nil];
+    
 }
 
 - (IBAction)secondBtnClicked:(id)sender {

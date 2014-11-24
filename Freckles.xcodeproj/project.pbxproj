@@ -20,6 +20,10 @@
 		489B14EF1A20B37300562C33 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 489B14E91A20B37300562C33 /* 4.png */; };
 		489B14F01A20B37300562C33 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 489B14EA1A20B37300562C33 /* 5.png */; };
 		489B14F11A20B37300562C33 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 489B14EB1A20B37300562C33 /* 6.png */; };
+		48D7B2321A23716200E02A70 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D7B2301A23716200E02A70 /* AboutViewController.m */; };
+		48D7B2331A23716300E02A70 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48D7B2311A23716200E02A70 /* AboutViewController.xib */; };
+		48D7B2371A2371F900E02A70 /* DrugListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D7B2351A2371F900E02A70 /* DrugListViewController.m */; };
+		48D7B2381A2371F900E02A70 /* DrugListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48D7B2361A2371F900E02A70 /* DrugListViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,12 @@
 		489B14E91A20B37300562C33 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
 		489B14EA1A20B37300562C33 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
 		489B14EB1A20B37300562C33 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		48D7B22F1A23716200E02A70 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		48D7B2301A23716200E02A70 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		48D7B2311A23716200E02A70 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		48D7B2341A2371F900E02A70 /* DrugListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrugListViewController.h; sourceTree = "<group>"; };
+		48D7B2351A2371F900E02A70 /* DrugListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugListViewController.m; sourceTree = "<group>"; };
+		48D7B2361A2371F900E02A70 /* DrugListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrugListViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +111,12 @@
 				489B14CB1A1F7C9A00562C33 /* Images.xcassets */,
 				489B14CD1A1F7C9A00562C33 /* LaunchScreen.xib */,
 				489B14BE1A1F7C9A00562C33 /* Supporting Files */,
+				48D7B22F1A23716200E02A70 /* AboutViewController.h */,
+				48D7B2301A23716200E02A70 /* AboutViewController.m */,
+				48D7B2311A23716200E02A70 /* AboutViewController.xib */,
+				48D7B2341A2371F900E02A70 /* DrugListViewController.h */,
+				48D7B2351A2371F900E02A70 /* DrugListViewController.m */,
+				48D7B2361A2371F900E02A70 /* DrugListViewController.xib */,
 			);
 			path = Freckles;
 			sourceTree = "<group>";
@@ -237,10 +253,12 @@
 				489B14EF1A20B37300562C33 /* 4.png in Resources */,
 				489B14EC1A20B37300562C33 /* 1.png in Resources */,
 				489B14F11A20B37300562C33 /* 6.png in Resources */,
+				48D7B2331A23716300E02A70 /* AboutViewController.xib in Resources */,
 				489B14ED1A20B37300562C33 /* 2.png in Resources */,
 				489B14EE1A20B37300562C33 /* 3.png in Resources */,
 				489B14F01A20B37300562C33 /* 5.png in Resources */,
 				489B14CF1A1F7C9A00562C33 /* LaunchScreen.xib in Resources */,
+				48D7B2381A2371F900E02A70 /* DrugListViewController.xib in Resources */,
 				489B14CC1A1F7C9A00562C33 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				489B14C71A1F7C9A00562C33 /* ViewController.m in Sources */,
+				48D7B2371A2371F900E02A70 /* DrugListViewController.m in Sources */,
 				489B14C41A1F7C9A00562C33 /* AppDelegate.m in Sources */,
+				48D7B2321A23716200E02A70 /* AboutViewController.m in Sources */,
 				489B14C11A1F7C9A00562C33 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,6 +474,7 @@
 				489B14E01A1F7C9A00562C33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		489B14E11A1F7C9A00562C33 /* Build configuration list for PBXNativeTarget "FrecklesTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +483,7 @@
 				489B14E31A1F7C9A00562C33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
